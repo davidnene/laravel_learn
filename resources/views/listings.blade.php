@@ -6,7 +6,7 @@
 @endif
 
 @foreach ($listings as $listing)
-<a href="/findlisting/{{$listing['id']}}">{{$listing['title']}}
+<a target="_blank" href="/findlisting/{{$listing['id']}}">{{$listing['title']}}
 </a>
 <p>
     {{$listing['description']}}
